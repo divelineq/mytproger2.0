@@ -1,0 +1,258 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
+
+body {
+  background-color: #2b2a29;
+  font-family: 'Roboto', sans-serif;
+  width: 60%;
+  margin: 0 auto;
+}
+
+ul {
+  color: white;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+}
+
+li > a:hover {
+  color: #aaa7a4;
+}
+
+.nav {
+  padding: 10px;
+}
+
+.selection {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-top: 10px;
+  grid-column-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.a1 > p > a {
+  text-decoration: none;
+  color: #2b2a29;
+}
+
+.a1 > p > a:hover {
+  color: #757473;
+}
+
+.a2,
+.a1 {
+  border: 1px solid white;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.a1 {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.a1 > p {
+  margin: 26px;
+}
+
+.a2 > h1 {
+  text-align: center;
+}
+
+.a2 > p {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 40px;
+}
+
+.logo {
+  width: 390px;
+  margin: 0 auto;
+}
+
+.rasscaz > a {
+  margin-top: 100px;
+  text-decoration: none;
+  color: #2b2a29;
+}
+.rasscaz > a:hover {
+  color: #757473;
+}
+
+.kniga {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  border: 1px solid white;
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.kniga > p > strong > a {
+  text-decoration: none;
+  color: #2b2a29;
+}
+
+.kniga > p > strong > a:hover {
+  color: #757473;
+}
+
+.komp {
+  background-color: #56aaff;
+  margin: -0.5px;
+  margin-bottom: -0.7px;
+  border: 2px solid #56aaff;
+  border-radius: 3px;
+}
+
+.komp > img {
+  height: 100px;
+  margin-left: 120px;
+  margin-top: 65px;
+}
+
+.kniga > p {
+  padding: 15px;
+}
+
+.konferens {
+  grid-template-columns: 70% 30%;
+  border: 1px solid white;
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin: 20px 0px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.konferens > p > strong > a {
+  color: #2b2a29;
+  text-decoration: none;
+}
+
+.konferens > p > strong > a:hover {
+  color: #757473;
+}
+.konferens > h4 > a {
+  color: #2b2a29;
+  text-decoration: none;
+}
+
+.konferens > h4 > a:hover {
+  color: #757473;
+}
+
+.vilka {
+  border: 1px solid white;
+  background-color: #ffffff;
+  border-radius: 3px;
+  margin: 20px 0px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.vilka > h2 > a {
+  color: #2b2a29;
+  text-decoration: none;
+}
+
+.vilka > h2 > a:hover {
+  color: #757473;
+}
+.vilka > h2 {
+  font-size: 23px;
+}
+
+.vilka > p {
+  font-size: 21px;
+}
+
+.vilka > img {
+  border-radius: 3px;
+}
+
+.h2 {
+  margin-left: 19px;
+}
+
+.trio {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 20px;
+}
+
+.trio > div {
+  background-color: white;
+  padding: 25px;
+  border-radius: 3px;
+}
+
+.trio > div > a {
+  color: #2b2a29;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.trio > div > a:hover {
+  color: #757473;
+}
+
+.gr1 {
+  background: linear-gradient(
+    to top left,
+    rgb(141, 233, 245),
+    rgb(230, 151, 250)
+  );
+}
+
+.gr2 {
+  background: linear-gradient(
+    to top left,
+    rgb(243, 234, 151),
+    rgb(214, 148, 245)
+  );
+}
+
+.gr3 {
+  background: linear-gradient(
+    to top left,
+    rgb(130, 132, 245),
+    rgb(152, 238, 126)
+  );
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 20px;
+  color: #797972;
+}
+footer > div {
+  margin: 0 60px;
+}
+
+.golyb {
+  text-decoration: none;
+  color: #04a49c;
+}
+
+.yvedi {
+  color: #e54b4c;
+}
+.obin {
+  text-decoration: none;
+  color: #797972;
+}
